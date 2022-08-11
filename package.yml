@@ -1,0 +1,63 @@
+--- 
+matches:
+
+#Keyboard key replacement
+  - trigger:  ':a'
+    label: "<"
+    replace: '<'
+
+  - trigger: ':d'
+    label: ">"
+    replace: '>'
+
+  - trigger: ':s'
+    label: "$"  
+    replace: '$'
+
+  - trigger : ':w'
+    label: "|"
+    replace: '|'
+
+  - trigger: ':q'
+    label: '\'
+    replace: '\'
+
+  - trigger: ':e'
+    label: "/"
+    replace: '/'
+
+  - trigger: ':-' 
+    label: 'StarChar'
+    replace: '*'
+
+  - trigger: ':c' 
+    label: 'AndChar'
+    replace: '&'
+
+#JavaScript 
+
+  - trigger: ':0'
+    label: "BackTick"
+    replace: '``'
+
+  -trigger: ':1'
+   label: 'Js arrow function'
+   replace: |
+              '
+              =>
+              '
+  - trigger: ':2' 
+    label: 'Bracket'
+    replace: '()'
+  
+    - trigger: ':3' 
+    label: 'SBracket'
+    replace: '[]'
+
+  - trigger: ':4' 
+    label: 'CBracket'
+    replace: '{}'
+
+  - trigger: ':5' 
+    label: 'ABracket'
+    replace: '<>'

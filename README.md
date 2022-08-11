@@ -1,0 +1,2 @@
+# FasterTyping
+ FasterTyping
