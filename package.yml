@@ -40,9 +40,9 @@ matches:
     label: "BackTick"
     replace: '``'
 
-  -trigger: ':1'
-   label: 'Js arrow function'
-   replace: |
+  - trigger: ':1'
+    label: 'Js arrow function'
+    replace: |
               '
               =>
               '
@@ -50,7 +50,7 @@ matches:
     label: 'Bracket'
     replace: '()'
   
-    - trigger: ':3' 
+  - trigger: ':3' 
     label: 'SBracket'
     replace: '[]'
 
