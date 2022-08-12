@@ -42,10 +42,8 @@ matches:
 
   - trigger: ':1'
     label: 'Js arrow function'
-    replace: |
-              '
-              =>
-              '
+    replace: '=>'
+    
   - trigger: ':2' 
     label: 'Bracket'
     replace: '()'
