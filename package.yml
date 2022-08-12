@@ -38,7 +38,7 @@ matches:
 
   - trigger: ':0'
     label: "BackTick"
-    replace: '``'
+    replace: '`$|$`'
 
   - trigger: ':1'
     label: 'Js arrow function'
@@ -46,16 +46,16 @@ matches:
     
   - trigger: ':2' 
     label: 'Bracket'
-    replace: '()'
+    replace: '($|$)'
   
   - trigger: ':3' 
     label: 'SBracket'
-    replace: '[]'
+    replace: '[$|$]'
 
   - trigger: ':4' 
     label: 'CBracket'
-    replace: '{}'
+    replace: '{$|$}'
 
   - trigger: ':5' 
     label: 'ABracket'
-    replace: '<>'
+    replace: '<$|$>'
